@@ -67,7 +67,7 @@ matcapTexture.colorSpace = THREE.SRGBColorSpace
 //MeshPhysicalMaterial
 const material = new THREE.MeshPhysicalMaterial()
 material.metalness = 1
-material.roughness = 1
+material.roughness = 0
 // material.color = new THREE.Color('purple')
 // material.map = colorTexture
 // material.aoMap = ambientOcclusionTexture
